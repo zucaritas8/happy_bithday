@@ -224,3 +224,24 @@ function back() {
   var firstS = document.getElementById("first-sec");
   firstS.style.display = "block";
 }
+
+
+function bloquearMoviles() {
+  const esMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+  
+  if (esMovil) {
+      // Crear el mensaje de advertencia con estilos
+      const advertencia = document.createElement("div");
+      advertencia.classList.add("mensaje-advertencia");
+      advertencia.innerHTML = `
+          <h2>⚠️ Acceso restringido</h2>
+          <p>Esta página solo está disponible en computadoras.</p>
+      `;
+      
+      // Agregarlo al body
+      document.body.innerHTML = "";
+      document.body.appendChild(advertencia);
+  }
+}
+
+bloquearMoviles();
