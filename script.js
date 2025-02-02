@@ -33,10 +33,8 @@ function no() {
   // Ocultar todo el contenido actual
   var box = document.getElementById("box-sec");
   box.style.display = "none";
-  // Ocultar todo el contenido actual
   var firstS = document.getElementById("first-sec");
   firstS.style.display = "none";
-  // Ocultar todo el contenido actual
   var secondS = document.getElementById("secondSec");
   secondS.style.display = "none";
 
@@ -64,13 +62,10 @@ function x() {
     // Ocultar todo el contenido actual
     var box2 = document.getElementById("box-sec2");
     box2.style.display = "none";
-    // Ocultar todo el contenido actual
     var box = document.getElementById("box-sec");
     box.style.display = "none";
-  // Ocultar todo el contenido actual
   var secondS = document.getElementById("secondSec");
   secondS.style.display = "none";
-  // Ocultar todo el contenido actual
   var alert = document.getElementById("alertBox");
   alert.style.display = "none";
 
@@ -82,13 +77,10 @@ function cancel() {
   // Ocultar todo el contenido actual
   var box2 = document.getElementById("box-sec2");
   box2.style.display = "none";
-  // Ocultar todo el contenido actual
   var box = document.getElementById("box-sec");
   box.style.display = "none";
-  // Ocultar todo el contenido actual
   var secondS = document.getElementById("secondSec");
   secondS.style.display = "none";
-  // Ocultar todo el contenido actual
   var alert = document.getElementById("alertBox");
   alert.style.display = "none";
 
@@ -101,13 +93,10 @@ function x2() {
   // Ocultar todo el contenido actual
   var box2 = document.getElementById("box-sec2");
   box2.style.display = "none";
-  // Ocultar todo el contenido actual
   var box = document.getElementById("box-sec");
   box.style.display = "none";
-  // Ocultar todo el contenido actual
   var secondS = document.getElementById("secondSec");
   secondS.style.display = "none";
-  // Ocultar todo el contenido actual
   var alert2 = document.getElementById("alertBoxA");
   alert2.style.display = "none";
 
@@ -119,13 +108,10 @@ function next() {
   // Ocultar todo el contenido actual
   var box2 = document.getElementById("box-sec2");
   box2.style.display = "none";
-  // Ocultar todo el contenido actual
   var box = document.getElementById("box-sec");
   box.style.display = "none";
-  // Ocultar todo el contenido actual
   var firstS = document.getElementById("first-sec");
   firstS.style.display = "none";
-  // Ocultar todo el contenido actual
   var alert2 = document.getElementById("alertBoxA");
   alert2.style.display = "none";
 
@@ -194,7 +180,7 @@ animate();
 // Event listeners
 window.addEventListener("resize", resizeCanvas);
 canvas.addEventListener("mousemove", handleMouseMove);
-// Create explosions at intervals
+// Crea explosiones en intervalos
 setInterval(() => {
 createExplosion(mousePos.x, mousePos.y);
 }, 50);
@@ -227,13 +213,10 @@ function back() {
   // Ocultar todo el contenido actual
   var box2 = document.getElementById("box-sec2");
   box2.style.display = "none";
-  // Ocultar todo el contenido actual
   var box = document.getElementById("box-sec");
   box.style.display = "none";
-  // Ocultar todo el contenido actual
   var secondS = document.getElementById("secondSec");
   secondS.style.display = "none";
-  // Ocultar todo el contenido actual
   var alert = document.getElementById("alertBox");
   alert.style.display = "none";
 
