@@ -242,7 +242,7 @@ button.learn-more:active::before {
 }
 
 .hack-sonic {
-    width: 80px;
+    height: 80px;
     margin-left: 20px;
 }
 
@@ -413,10 +413,6 @@ button.learn-more:active::before {
 #closeAlertButtonA:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
-}
-
-#secondSec {
-    position: fixed;
 }
 
 main {
