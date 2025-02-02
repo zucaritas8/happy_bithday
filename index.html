@@ -9,19 +9,24 @@
 </head>
 
 <body>
+
 <header id="header">
+
 <section id="first-sec">
+
     <div class="contenedor">
     <div class="buttons">
         <button id="yesBtn" class="learn-more" onclick="yes()">SORPRESA DEL AÑO</button>
         <button id="noBtn" class="learn-more" onclick="no()">ALTERNATIVA</button>
     </div>
     </div>
+
 </section>
 
 
 <section id="adds">
-<section id="box-sec" class="hiddens">
+
+<section id="box-sec" style="display: none;">
     <div id="overlays">
 <div id="progress-box">
 <div class="title-bar">
@@ -34,7 +39,7 @@
 </div></div>
 </section>
 
-<section id="alertBox" class="hidden">
+<section id="alertBox" style="display: none;">
 <div id="overlay" >
     <div class="title">
         Error
@@ -49,11 +54,13 @@
     </div>
 </div>
 </section>
+
 </section>
 
 
 <section id="adds2">
-<section id="box-sec2" class="hiddens2">
+
+<section id="box-sec2" style="display: none;">
     <div id="overlays2">
 <div id="progress-box2">
 <div class="title-bar2">
@@ -65,7 +72,7 @@
 </div>
 </div></div>
 </section>
-<section id="alertBoxA" class="hiddenA">
+<section id="alertBoxA" style="display: none;">
     <div id="overlayA" >
         <div class="titleA">
             Carga Exitosa
@@ -79,12 +86,15 @@
             <button id="closeAlertButtonA" onclick="next()">Continuar</button>
         </div>
     </div>
-    </section>
 </section>
+
+</section>
+
 </header>
 
 <main> 
-<section id="secondSec" >
+
+<section id="secondSec" style="display: none;">
     <div class="all">
         <div class="card"> <canvas id="confettiCanvas"></canvas>
             <div class="window">
@@ -152,6 +162,9 @@
                 <button id="but" class="next" onclick="nextSlide()">❯</button>
             </div>
         </div><div class="messagex"><h5>MENSAJE</h5></div>
+    </div>
+    <div class="backs" onclick="back()">
+        <button class="back" id="back">regresar</button>
     </div>
     </section>
 </main>

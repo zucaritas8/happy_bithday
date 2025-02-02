@@ -1,8 +1,18 @@
-let progress = 0;
-
 function yes() {
-    document.getElementById('box-sec').style.display = 'block';
-            let progress = -1;
+  // Ocultar todo el contenido actual
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var box2 = document.getElementById("box-sec2");
+  box2.style.display = "none";
+  // Ocultar todo el contenido actual
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "none";
+
+  // Mostrar el nuevo contenido
+  var box = document.getElementById("box-sec");
+  box.style.display = "block";
+    let progress = -1;
             const progressBar = document.getElementById("progress-bar");
             const errorMessage = document.getElementById("alertBox");
     function updateProgress() {
@@ -19,22 +29,21 @@ function yes() {
             updateProgress();
 }
 
-function cancel() {
-        document.getElementById('adds').style.display = 'none';
-        document.getElementById('progress-bar').style.width = '0%';
-}
-function x() {
-    document.getElementById('adds').style.display = 'none';
-    document.getElementById('progress-bar').style.width = '0%';
-}
-function x2() {
-    document.getElementById('adds2').style.display = 'none';
-    document.getElementById('progress-bar2').style.width = '0%';
-}
-
 function no() {
-    document.getElementById('box-sec2').style.display = 'block';
-            let progress2 = -1;
+  // Ocultar todo el contenido actual
+  var box = document.getElementById("box-sec");
+  box.style.display = "none";
+  // Ocultar todo el contenido actual
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "none";
+
+  // Mostrar el nuevo contenido
+  var box2 = document.getElementById("box-sec2");
+    box2.style.display = "block";
+    let progress2 = -1;
             const progressBar2 = document.getElementById("progress-bar2");
             const errorMessage2 = document.getElementById("alertBoxA");
     function updateProgress2() {
@@ -51,19 +60,78 @@ function no() {
             updateProgress2();
 }
 
+function x() {
+    // Ocultar todo el contenido actual
+    var box2 = document.getElementById("box-sec2");
+    box2.style.display = "none";
+    // Ocultar todo el contenido actual
+    var box = document.getElementById("box-sec");
+    box.style.display = "none";
+  // Ocultar todo el contenido actual
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var alert = document.getElementById("alertBox");
+  alert.style.display = "none";
+
+  // Mostrar el nuevo contenido
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "block";
+}
+function cancel() {  
+  // Ocultar todo el contenido actual
+  var box2 = document.getElementById("box-sec2");
+  box2.style.display = "none";
+  // Ocultar todo el contenido actual
+  var box = document.getElementById("box-sec");
+  box.style.display = "none";
+  // Ocultar todo el contenido actual
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var alert = document.getElementById("alertBox");
+  alert.style.display = "none";
+
+  // Mostrar el nuevo contenido
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "block";
+}
+
+function x2() {
+  // Ocultar todo el contenido actual
+  var box2 = document.getElementById("box-sec2");
+  box2.style.display = "none";
+  // Ocultar todo el contenido actual
+  var box = document.getElementById("box-sec");
+  box.style.display = "none";
+  // Ocultar todo el contenido actual
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var alert2 = document.getElementById("alertBoxA");
+  alert2.style.display = "none";
+
+  // Mostrar el nuevo contenido
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "block";
+}
 function next() {
-    var seccion1 = document.getElementById('header');
-    var seccion2 = document.getElementById('secondSec');
+  // Ocultar todo el contenido actual
+  var box2 = document.getElementById("box-sec2");
+  box2.style.display = "none";
+  // Ocultar todo el contenido actual
+  var box = document.getElementById("box-sec");
+  box.style.display = "none";
+  // Ocultar todo el contenido actual
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var alert2 = document.getElementById("alertBoxA");
+  alert2.style.display = "none";
 
-    // Eliminar la primera sección
-    if (seccion1) {
-        seccion1.remove();
-    }
-
-    // Mostrar la segunda sección
-    if (seccion2) {
-        seccion2.style.display = 'block';
-    }
+  // Mostrar el nuevo contenido
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "block";
 }
 
 const canvas = document.getElementById("confettiCanvas");
@@ -154,3 +222,22 @@ function prevSlide() {
 document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentSlide);
 });
+
+function back() {  
+  // Ocultar todo el contenido actual
+  var box2 = document.getElementById("box-sec2");
+  box2.style.display = "none";
+  // Ocultar todo el contenido actual
+  var box = document.getElementById("box-sec");
+  box.style.display = "none";
+  // Ocultar todo el contenido actual
+  var secondS = document.getElementById("secondSec");
+  secondS.style.display = "none";
+  // Ocultar todo el contenido actual
+  var alert = document.getElementById("alertBox");
+  alert.style.display = "none";
+
+  // Mostrar el nuevo contenido
+  var firstS = document.getElementById("first-sec");
+  firstS.style.display = "block";
+}

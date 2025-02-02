@@ -125,11 +125,6 @@ button.learn-more:active::before {
     padding: 260px;
 }
 
-
-.hiddens {
-    display: none;
-}
-
 #progress-box {
     width: 500px;
     border: 3px solid #0000b0;
@@ -199,10 +194,6 @@ button.learn-more:active::before {
     margin-top: -0.4%;
 }
 
-.hidden {
-    display: none;
-}
-
 .title {
     font-weight: 900;
     font-size: 1.2rem;
@@ -218,7 +209,6 @@ button.learn-more:active::before {
 #x {
     padding: 0%;
 }
-
 
 .text1 {
     margin-left: 6%;
@@ -299,10 +289,6 @@ button.learn-more:active::before {
     padding: 260px;
 }
 
-.hiddens2 {
-    display: none;
-}
-
 #progress-box2 {
     width: 500px;
     border: 3px solid #0000b0;
@@ -371,10 +357,6 @@ button.learn-more:active::before {
     height: 26%;
     width: 26%;
     margin-top: -0.4%;
-}
-
-.hiddenA {
-    display: none;
 }
 
 .titleA {
@@ -500,7 +482,6 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 
 .deco {
     display: flex;
@@ -664,4 +645,29 @@ h4 {
     padding: 0;
     top: 0;
     left: -15.8%;
+}
+
+.backs {
+    display: flex;
+    justify-content: center;
+}
+
+button.back {
+    font-size: 10px;
+    font-weight: 600;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    background: #b5b5b5;
+    border: 2px solid #020202;
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.back:hover {
+    background-color: rgb(205, 204, 204);
+}
+
+.back:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
 }
