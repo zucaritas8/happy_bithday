@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy... what do i know?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<header id="header">
+<section id="first-sec">
+    <div class="contenedor">
+    <div class="buttons">
+        <button id="yesBtn" class="learn-more" onclick="yes()">SORPRESA DEL AÑO</button>
+        <button id="noBtn" class="learn-more" onclick="no()">ALTERNATIVA</button>
+    </div>
+    </div>
+</section>
+
+
+<section id="adds">
+<section id="box-sec" class="hiddens">
+    <div id="overlays">
+<div id="progress-box">
+<div class="title-bar">
+    Cargando Sorpresa...
+</div>
+<img src="img/sonic-run.gif" alt="" class="sonic-run">
+<div class="progress-container">
+    <div class="progress-bar" id="progress-bar">0%</div>
+</div>
+</div></div>
+</section>
+
+<section id="alertBox" class="hidden">
+<div id="overlay" >
+    <div class="title">
+        Error
+        <button id="x"><div class="close-button" onclick="x()">X</div></button>
+    </div>
+    <div class="content">
+        <img src="img/hack-sonic.png" alt="Sonic" class="hack-sonic">
+        <p class="text1">Sonic está hackeando tu dispositivo.</p>
+    </div>
+    <div id="closse">
+        <button id="closeAlertButton" onclick="cancel()">Cancelar</button>
+    </div>
+</div>
+</section>
+</section>
+
+
+<section id="adds2">
+<section id="box-sec2" class="hiddens2">
+    <div id="overlays2">
+<div id="progress-box2">
+<div class="title-bar2">
+    Cargando Alternativa...
+</div>
+<img src="img/sonic-run.gif" alt="" class="sonic-run">
+<div class="progress-container2">
+    <div class="progress-bar2" id="progress-bar2">0%</div>
+</div>
+</div></div>
+</section>
+<section id="alertBoxA" class="hiddenA">
+    <div id="overlayA" >
+        <div class="titleA">
+            Carga Exitosa
+            <button id="x"><div class="close-button" onclick="x2()">X</div></button>
+        </div>
+        <div class="contentA">
+            <img src="img/agree-sonic.png" alt="Sonic" class="agree-sonic">
+            <p class="text2">¡Excelente elección! Sonic tiene un mensaje para ti.</p>
+        </div>
+        <div id="closseA">
+            <button id="closeAlertButtonA" onclick="next()">Continuar</button>
+        </div>
+    </div>
+    </section>
+</section>
+</header>
+
+<main> 
+<section id="secondSec" >
+    <div class="all">
+        <div class="card"> <canvas id="confettiCanvas"></canvas>
+            <div class="window">
+                <div class="title-barr">
+                    <span class="titlet">Sin Título</span>
+                    <div class="window-controls">
+                        <div class="minimize">_</div>
+                        <div class="maximize">□</div>
+                        <div class="closed">X</div>
+                    </div>
+                </div>
+                <div class="menu-bar">
+                    <span>Archivo</span>
+                    <span>Editar</span>
+                    <span>Buscar</span>
+                    <span>Ayuda</span>
+                </div>
+                <div class="contentt">
+                    <div class="congratulations">
+                    <h1>¡FELIZ CUMPLEAÑOS FRANCHESCO!</h1><br>
+                        <div class="deco">
+                        <div class="deco-left"><img src="img/stars.gif" alt="stars" class="stars3"></div>
+                        <img src="img/stars.gif" alt="stars" class="stars" id="stari">
+                        <img src="img/stars.gif" alt="stars" class="stars2" id="stari">
+                        <img src="img/dancer-sonik.gif" alt="dancer-sonic" class="dancer">
+                        <img src="img/stars.gif" alt="stars" class="stars2">
+                        <img src="img/stars.gif" alt="stars" class="stars">
+                        <div class="deco-right"><img src="img/stars.gif" alt="stars" class="stars4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cardd">
+            <div class="content">
+                <div class="carousel-item active">
+                <h4>¡HEYYY!</h4>
+                <br>
+                <p>Francisco estás viejo!, hoy ya te alcanzaron los 22 pipipi, bueno, quiero desearte un feliz cumpleaños, 
+                    espero que hoy la pases bonito y obviamente 
+                    no solo hoy xd pero me entiendes.</p>
+                    <img src="img/party-amyy.gif" alt="party" class="amy">
+                </div>
+                <div class="carousel-item">
+                <p>También espero que cumplas tus metas, y la verdad es algo a lo que le tengo fe 
+                    porque una de tus virtudes es ser organizado (bueno, eso noté xd), es algo que admiro de ti, ta potente JAJAJA, cuando 
+                    sea grande quiero ser como tú, ok no jaja y nada... aprecio tu amistad querido Franchesco, gracias por ello. 
+                <img src="img/cream-cheese.gif" alt="cream-cheese" class="cream-cheese">
+                </p>
+                </div>
+                <div class="carousel-item">
+                <p>Fíjate que no es la sorpresa del año jajaja pero espero que te haya gustado.</p>
+                <img src="img/diamond-sonic.gif" alt="diamond-sonic" class="diamond">
+                <p>Por cierto lo de viejo es mentira, ambos sabemos y tú más aún que irradias mucha energía juvenil, 
+                    como siempre Franchesco devorando y no ayunando xddd, en fin...</p>
+                </div>
+                <div class="carousel-item">
+                <div class="good-vibes">
+                <p>¡Felicidades!</p>
+                <img src="img/heart-amy.gif" alt="heart-amy" class="heart-amy">
+                <p>¡Te mando buenas vibras!</p>
+                </div>
+                </div>
+                <button id="but" class="prev" onclick="prevSlide()">❮</button>
+                <button id="but" class="next" onclick="nextSlide()">❯</button>
+            </div>
+        </div><div class="messagex"><h5>MENSAJE</h5></div>
+    </div>
+    </section>
+</main>
+    <script src="script.js"></script>
+
+</body>
+</html>
