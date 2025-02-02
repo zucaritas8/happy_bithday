@@ -415,6 +415,9 @@ button.learn-more:active::before {
     outline-offset: 2px;
 }
 
+#secondSec {
+    position: fixed;
+}
 
 main {
     display: flex;
