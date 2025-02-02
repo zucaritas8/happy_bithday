@@ -672,6 +672,7 @@ button.back {
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
+
 .mensaje-advertencia {
     position: fixed;
     top: 0;
@@ -684,7 +685,6 @@ button.back {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-family: Arial, sans-serif;
     text-align: center;
     z-index: 9999;
 }
