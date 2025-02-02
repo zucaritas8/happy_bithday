@@ -227,7 +227,7 @@ function back() {
 
 
 function bloquearMoviles() {
-  const esMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+  const esMovil = /Android|webOS|iPhone|iPad|iPod|BlackBerry|Windows Phone|Opera Mini|IEMobile/i.test(navigator.userAgent);
   
   if (esMovil) {
       // Crear el mensaje de advertencia con estilos
