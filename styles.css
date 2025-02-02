@@ -415,6 +415,10 @@ button.learn-more:active::before {
     outline-offset: 2px;
 }
 
+#secondSec {
+    position: fixed;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -525,6 +529,7 @@ main {
 }
 
 .all {
+    margin-top: 0.5%;
     position: relative;
     width: 1100px;
     flex-wrap: wrap;
