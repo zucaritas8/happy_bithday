@@ -23,7 +23,7 @@ function yes() {
             setTimeout(updateProgress, 100);
         } else {
             errorMessage.style.display = "block";
-            progressBar.style.backgroundColor = "red";
+            progressBar.style.backgroundColor = "ffc721";
         }
             }
             updateProgress();
@@ -52,7 +52,7 @@ function no() {
             setTimeout(updateProgress2, 100);
         } else {
             errorMessage2.style.display = "block";
-            progressBar2.style.backgroundColor = "green";
+            progressBar2.style.backgroundColor = "ffc721";
         }
             }
             updateProgress2();
